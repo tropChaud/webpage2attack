@@ -8,7 +8,7 @@ Tallies explicit mentions of MITRE ATT&CK (sub)techniques (e.g. T1027 or T1027.0
 ## Anticipated Use Case
 
 ## Requirements
-[Python Requests](https://docs.python-requests.org/en/latest/user/install/#install)
-[Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/#installing-beautiful-soup)
+* [Python Requests](https://docs.python-requests.org/en/latest/user/install/#install)
+* [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/#installing-beautiful-soup)
 
 MITRE ATT&CK® is a registered trademark of The MITRE Corporation
