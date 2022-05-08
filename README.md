@@ -1,4 +1,4 @@
-# webpage2attack.py
+# [webpage2attack.py](https://github.com/tropChaud/webpage2attack/blob/main/app/webpage2attack.py)
 
 ## About
 Python3 script to generate portable TTP intelligence from a web-based report
