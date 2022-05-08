@@ -3,7 +3,7 @@
 ## About
 Python3 script to generate portable TTP intelligence from a web-based report
 
-Tallies explicit mentions of MITRE ATT&CK (sub)techniques (e.g. T1027 or T1027.001) on a single webpage, and outputs a .json file compatible for use with the [ATT&CK Navigator](https://mitre-attack.github.io/attack-navigator/) visualization tool.
+Tallies explicit mentions of MITRE ATT&CK (sub)techniques (e.g. T1027 or T1027.001) on a single html webpage, and outputs a .json file compatible for use with the [ATT&CK Navigator](https://mitre-attack.github.io/attack-navigator/) visualization tool.
 
 ## Required Python Libraries
 * [Python Requests](https://docs.python-requests.org/en/latest/user/install/#install)
