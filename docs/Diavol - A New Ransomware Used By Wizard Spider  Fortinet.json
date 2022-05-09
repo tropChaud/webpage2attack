@@ -1,0 +1,68 @@
+{
+    "name": "Diavol - A New Ransomware Used By Wizard Spider? | Fortinet",
+    "versions": {
+        "attack": "11",
+        "navigator": "4.6.1",
+        "layer": "4.3"
+    },
+    "domain": "enterprise-attack",
+    "description": "Heatmap of (sub)techniques mentioned in \"Diavol - A New Ransomware Used By Wizard Spider? | Fortinet\".\nSource: https://www.fortinet.com/blog/threat-research/diavol-new-ransomware-used-by-wizard-spider",
+    "techniques": [
+        {
+            "techniqueID": "T1027",
+            "score": 1
+        },
+        {
+            "techniqueID": "T1082",
+            "score": 1
+        },
+        {
+            "techniqueID": "T1071.001",
+            "score": 1
+        },
+        {
+            "techniqueID": "T1489",
+            "score": 1
+        },
+        {
+            "techniqueID": "T1562.001",
+            "score": 1
+        },
+        {
+            "techniqueID": "T1135",
+            "score": 1
+        },
+        {
+            "techniqueID": "T1490",
+            "score": 1
+        },
+        {
+            "techniqueID": "T1559.001",
+            "score": 1
+        },
+        {
+            "techniqueID": "T1486",
+            "score": 1
+        },
+        {
+            "techniqueID": "T1485",
+            "score": 1
+        }
+    ],
+    "layout": {
+        "layout": "side",
+        "aggregateFunction": "max",
+        "showID": false,
+        "showName": true,
+        "showAggregateScores": true,
+        "countUnscored": false
+    },
+    "gradient": {
+        "colors": [
+            "#ffffff",
+            "#ff6666"
+        ],
+        "minValue": 0,
+        "maxValue": 1
+    }
+}

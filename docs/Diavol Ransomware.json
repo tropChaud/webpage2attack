@@ -1,0 +1,112 @@
+{
+    "name": "Diavol Ransomware",
+    "versions": {
+        "attack": "11",
+        "navigator": "4.6.1",
+        "layer": "4.3"
+    },
+    "domain": "enterprise-attack",
+    "description": "Heatmap of (sub)techniques mentioned in \"Diavol Ransomware\".\n\nSource: https://thedfirreport.com/2021/12/13/diavol-ransomware/",
+    "techniques": [
+        {
+            "techniqueID": "T1566.002",
+            "score": 1
+        },
+        {
+            "techniqueID": "T1197",
+            "score": 1
+        },
+        {
+            "techniqueID": "T1558.003",
+            "score": 1
+        },
+        {
+            "techniqueID": "T1558.004",
+            "score": 1
+        },
+        {
+            "techniqueID": "T1552.002",
+            "score": 1
+        },
+        {
+            "techniqueID": "T1021.001",
+            "score": 1
+        },
+        {
+            "techniqueID": "T1567.002",
+            "score": 1
+        },
+        {
+            "techniqueID": "T1003",
+            "score": 1
+        },
+        {
+            "techniqueID": "T1021.002",
+            "score": 1
+        },
+        {
+            "techniqueID": "T1033",
+            "score": 1
+        },
+        {
+            "techniqueID": "T1046",
+            "score": 1
+        },
+        {
+            "techniqueID": "T1055",
+            "score": 1
+        },
+        {
+            "techniqueID": "T1059.001",
+            "score": 1
+        },
+        {
+            "techniqueID": "T1069.002",
+            "score": 1
+        },
+        {
+            "techniqueID": "T1083",
+            "score": 1
+        },
+        {
+            "techniqueID": "T1134",
+            "score": 1
+        },
+        {
+            "techniqueID": "T1135",
+            "score": 1
+        },
+        {
+            "techniqueID": "T1482",
+            "score": 1
+        },
+        {
+            "techniqueID": "T1486",
+            "score": 1
+        },
+        {
+            "techniqueID": "T1562.001",
+            "score": 1
+        },
+        {
+            "techniqueID": "T1078",
+            "score": 1
+        }
+    ],
+    "layout": {
+        "layout": "side",
+        "aggregateFunction": "max",
+        "showID": false,
+        "showName": true,
+        "showAggregateScores": true,
+        "countUnscored": false
+    },
+    "gradient": {
+        "colors": [
+            "#ffffff",
+            "#ff6666"
+        ],
+        "minValue": 0,
+        "maxValue": 1
+    }
+}
