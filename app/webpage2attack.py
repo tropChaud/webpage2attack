@@ -29,7 +29,9 @@ for i in match:
 # If any matches are found, continue the program
 if tech_list:
 
-    # Base formatting for the MITRE ATT&CK Navigator "layer" json file
+    # Base formatting for the MITRE ATT&CK Navigator "layer" json file. Configured according to the author's
+    # preferences, but many modification options exist:
+    # https://github.com/mitre-attack/attack-navigator/blob/master/USAGE.md#layer-controls
     layer = {
         'name': title,
         'versions': {
