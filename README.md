@@ -5,7 +5,7 @@ Python3 script to generate portable TTP intelligence from a web-based report
 
 Tallies explicit mentions of MITRE ATT&CK (sub)techniques (e.g. T1027 or T1027.001) on a single html webpage, and outputs a .json file compatible for use with the [ATT&CK Navigator](https://mitre-attack.github.io/attack-navigator/) visualization tool.
 
-*\[May 9, 2022\] The script currently only covers ATT&CK Enterprise techniques, but an update is already in the works around Mobile and ICS techniques*
+*Note: The script currently only covers ATT&CK Enterprise techniques, but updates around Mobile and ICS techniques are being explored*
 
 ## Required Python Libraries
 * [Python Requests](https://docs.python-requests.org/en/latest/user/install/#install)
