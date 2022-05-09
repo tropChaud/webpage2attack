@@ -16,6 +16,8 @@ page = requests.get(url)
 soup = BeautifulSoup(page.content, 'html.parser')
 title = soup.title.string
 
+print('\nNote: This tool currently only covers ATT&CK Enterprise techniques & sub-techniques')
+
 # Regex for ATT&CK sub-techniques & techniques (e.g. T1027 or T1027.001)
 reg = re.compile('(T1\d{3}\.\d{3}|T1\d{3})')
 
@@ -91,5 +93,5 @@ if tech_list:
 
 # If no regex matches for techniques are found on the webpage, end the program
 else:
-    print('\nNo techniques extracted from webpage. Ending program')
+    print('\nNo ATT&CK Enterprise techniques extracted from webpage. Ending program')
     sys.exit(0)
