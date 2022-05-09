@@ -24,7 +24,7 @@ Processing another report and combining the Navigator layers:
 
 ![webpage2attack2](https://raw.githubusercontent.com/tropChaud/webpage2attack/main/docs/webpage2attack2.gif)
 
-Exporting the combined heatmap to quickly identify potentially relevant detections and tests aligned with each TTP:
+Exporting the combined heatmap to quickly identify potentially relevant detections and tests [aligned with each TTP](https://controlcompass.github.io/risk):
 
 ![webpage2attack3](https://raw.githubusercontent.com/tropChaud/webpage2attack/main/docs/webpage2attack3.gif)
 
