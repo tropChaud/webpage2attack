@@ -17,12 +17,15 @@ Quickly extract TTP identifiers from a given technical report, for threat intell
 
 ### Walkthroughs
 Running the script:
+
 ![webpage2attack1](https://raw.githubusercontent.com/tropChaud/webpage2attack/main/docs/webpage2attack1.gif)
 
 Processing another report and combining the Navigator layers:
+
 ![webpage2attack2](https://raw.githubusercontent.com/tropChaud/webpage2attack/main/docs/webpage2attack2.gif)
 
 Exporting the combined heatmap to quickly identify potentially relevant detections and tests aligned with each TTP:
+
 ![webpage2attack3](https://raw.githubusercontent.com/tropChaud/webpage2attack/main/docs/webpage2attack3.gif)
 
 *MITRE ATT&CK® is a registered trademark of The MITRE Corporation*
