@@ -40,14 +40,14 @@ if tech_list:
     try:
         layerOut_name = title + '.json'
         csvOut_name = title + '.csv'
-        layerOut = open(layerOut_name, 'w')
-        csvOut = open(csvOut_name, 'w')
+        layerOut = open(layerOut_name, 'w', encoding='utf-8')
+        csvOut = open(csvOut_name, 'w', encoding='utf-8', newline='')
     # If there are other characters present that create errors creating the file, use a generic filename
     except OSError:
         layerOut_name = 'webpage2attack_heatmap.json'
         csvOut_name = 'webpage2attack_count.csv'
-        layerOut = open(layerOut_name, 'w')
-        csvOut = open(csvOut_name, 'w')
+        layerOut = open(layerOut_name, 'w', encoding='utf-8')
+        csvOut = open(csvOut_name, 'w', encoding='utf-8', newline='')
 
     writer = csv.writer(csvOut)
     writer.writerow(['Technique', 'Count'])
